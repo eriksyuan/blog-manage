@@ -94,7 +94,7 @@ const vueConfig = {
         ws: false,
         changeOrigin: true,
         pathRewrite: {
-          '^/api/serve': '/admin'
+          '^/api/serve': '/api/admin'
         }
       }
     }
